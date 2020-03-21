@@ -9,6 +9,7 @@ const Pirates = props => {
           <h3>{pirate.title}</h3>
           <h3>{pirate.bounty}</h3>
           <h3>{pirate.crew}</h3>
+          <button>{pirate.edit}</button>
         </div>
       ))}
     </div>

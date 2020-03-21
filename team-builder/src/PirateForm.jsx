@@ -7,7 +7,8 @@ const PirateForm = props => {
     name: "",
     title: "",
     bounty: "",
-    crew: "" 
+    crew: "",
+    edit: "Edit Pirate" 
   });
   console.log(pirateFormState);
 
@@ -31,7 +32,8 @@ const PirateForm = props => {
         name: "",
         title: "",
         bounty: "",
-        crew: "" 
+        crew: "", 
+        edit: "Edit Pirate"
     });
   };
 

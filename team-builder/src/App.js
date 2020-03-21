@@ -10,7 +10,8 @@ function App() {
       name: "Monkey D. Luffy",
       title: "Captain",
       bounty: "1,500,000,000",
-      crew: "Straw Hat Pirates" 
+      crew: "Straw Hat Pirates",
+      edit: "Edit Pirate"
     }
   ]);
 
@@ -19,7 +20,7 @@ function App() {
     setPirateMemberState([...pirateMemberState, newMember]);
     //Update the state.
   };
-  
+
   return (
     <div className="App">
       <h1>One Piece</h1>
